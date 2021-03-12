@@ -1,0 +1,20 @@
+PyRamen (Optional)
+
+https://miami.bootcampcontent.com/Miami-Boot-Camp/mia-virt-fin-pt-02-2021-u-c/-/tree/master/Homework/02-Python/Instructions
+
+Read the Data
+Complete the following:
+
+Read in menu_data.csv and set its contents to a separate list object. (This way, you can cross-reference your menu data with your sales data as you read in your sales data in the coming steps.)
+
+Initialize an empty menu list object to hold the contents of menu_data.csv.
+
+Use a with statement and open the menu_data.csv by using its file path.
+
+Use the reader function from the csv library to begin reading menu_data.csv.
+
+Use the next function to skip the header (first row of the CSV).
+
+Loop over the rest of the rows and append every row to the menu list object (the outcome will be a list of lists).
+
+Set up the same process to read in sales_data.csv. However, instead append every row of the sales data to a new sales list object.
